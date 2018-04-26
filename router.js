@@ -4,7 +4,6 @@ var User = require('../models/user');
 var path = require("path");
 var fs = require('fs');
 
-
 // GET route for reading data
 router.get('/', function (req, res, next) {
   return res.sendFile(path.join(__dirname + '/templateLogReg/index.html'));
